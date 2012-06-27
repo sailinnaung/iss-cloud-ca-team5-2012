@@ -1,0 +1,119 @@
+2011-04-21 17:41:54,515 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = hadoop-VirtualBox/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2011-04-21 17:41:57,609 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /usr/local/hadoop-datastore/hadoop-hadoop/dfs/data is not formatted.
+2011-04-21 17:41:57,610 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2011-04-21 17:41:57,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2011-04-21 17:41:57,927 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2011-04-21 17:41:57,940 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2011-04-21 17:42:03,644 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-04-21 17:42:04,418 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2011-04-21 17:42:04,420 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2011-04-21 17:42:04,420 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2011-04-21 17:42:04,421 INFO org.mortbay.log: jetty-6.1.14
+2011-04-21 17:43:01,586 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2011-04-21 17:43:01,612 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2011-04-21 17:43:06,666 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2011-04-21 17:43:06,675 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-04-21 17:43:06,689 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-VirtualBox:50010, storageID=, infoPort=50075, ipcPort=50020)
+2011-04-21 17:43:06,686 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2011-04-21 17:43:06,688 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2011-04-21 17:43:06,693 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2011-04-21 17:43:06,703 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2011-04-21 17:43:06,762 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1166469875-10.0.2.15-50010-1303378986692 is assigned to data-node 127.0.0.1:50010
+2011-04-21 17:43:06,771 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-1166469875-10.0.2.15-50010-1303378986692, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/usr/local/hadoop-datastore/hadoop-hadoop/dfs/data/current'}
+2011-04-21 17:43:06,781 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2011-04-21 17:43:06,863 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks got processed in 17 msecs
+2011-04-21 17:43:06,864 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2011-04-21 17:43:09,962 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_5111298766089195194_1001 src: /127.0.0.1:37423 dest: /127.0.0.1:50010
+2011-04-21 17:43:10,086 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:37423, dest: /127.0.0.1:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_-1480683922, srvID: DS-1166469875-10.0.2.15-50010-1303378986692, blockid: blk_5111298766089195194_1001
+2011-04-21 17:43:10,122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_5111298766089195194_1001 terminating
+2011-04-21 17:44:16,940 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5111298766089195194_1001
+2011-04-21 17:47:44,219 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at hadoop-VirtualBox/10.0.2.15
+************************************************************/
+2011-04-21 18:12:26,531 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = hadoop-VirtualBox/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2011-04-21 18:12:29,902 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2011-04-21 18:12:29,935 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2011-04-21 18:12:30,067 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2011-04-21 18:12:35,741 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-04-21 18:12:36,779 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2011-04-21 18:12:36,779 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2011-04-21 18:12:36,779 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2011-04-21 18:12:36,780 INFO org.mortbay.log: jetty-6.1.14
+2011-04-21 18:12:43,842 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2011-04-21 18:12:43,932 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2011-04-21 18:12:49,167 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2011-04-21 18:12:49,227 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-04-21 18:12:49,288 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-VirtualBox:50010, storageID=DS-1166469875-10.0.2.15-50010-1303378986692, infoPort=50075, ipcPort=50020)
+2011-04-21 18:12:49,247 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2011-04-21 18:12:49,264 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2011-04-21 18:12:49,272 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2011-04-21 18:12:49,303 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2011-04-21 18:12:49,497 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-1166469875-10.0.2.15-50010-1303378986692, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/usr/local/hadoop-datastore/hadoop-hadoop/dfs/data/current'}
+2011-04-21 18:12:49,538 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2011-04-21 18:12:49,933 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 1 blocks got processed in 100 msecs
+2011-04-21 18:12:49,934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2011-04-21 18:12:54,171 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020, call getProtocolVersion(org.apache.hadoop.mapred.JobSubmissionProtocol, 20) from 127.0.0.1:52854: error: java.io.IOException: Unknown protocol to DataNode: org.apache.hadoop.mapred.JobSubmissionProtocol
+java.io.IOException: Unknown protocol to DataNode: org.apache.hadoop.mapred.JobSubmissionProtocol
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.getProtocolVersion(DataNode.java:1445)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2011-04-21 18:13:23,879 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-5570482190740811026_1002 src: /127.0.0.1:52693 dest: /127.0.0.1:50010
+2011-04-21 18:13:23,934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:52693, dest: /127.0.0.1:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_1097320911, srvID: DS-1166469875-10.0.2.15-50010-1303378986692, blockid: blk_-5570482190740811026_1002
+2011-04-21 18:13:23,965 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-5570482190740811026_1002 terminating
+2011-04-21 18:13:25,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleting block blk_5111298766089195194_1001 file /usr/local/hadoop-datastore/hadoop-hadoop/dfs/data/current/blk_5111298766089195194
+2011-04-21 18:16:10,764 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to localhost/127.0.0.1:54310 failed on local exception: java.io.IOException: Connection reset by peer
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:775)
+	at org.apache.hadoop.ipc.Client.call(Client.java:743)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:220)
+	at $Proxy4.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:702)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1186)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:175)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:116)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:276)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:237)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:501)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:446)
+
+2011-04-21 18:16:14,630 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:54310. Already tried 0 time(s).
+2011-04-21 18:16:15,632 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:54310. Already tried 1 time(s).
+2011-04-21 18:16:16,634 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:54310. Already tried 2 time(s).
+2011-04-21 18:16:17,011 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at hadoop-VirtualBox/10.0.2.15
+************************************************************/
