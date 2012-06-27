@@ -1,0 +1,193 @@
+2011-04-21 17:41:45,716 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = hadoop-VirtualBox/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2011-04-21 17:41:46,316 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=54310
+2011-04-21 17:41:46,364 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost.localdomain/127.0.0.1:54310
+2011-04-21 17:41:46,385 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2011-04-21 17:41:46,389 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2011-04-21 17:41:46,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare
+2011-04-21 17:41:46,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2011-04-21 17:41:46,759 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2011-04-21 17:41:46,786 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2011-04-21 17:41:46,799 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2011-04-21 17:41:46,938 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2011-04-21 17:41:46,961 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2011-04-21 17:41:46,961 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 96 loaded in 0 seconds.
+2011-04-21 17:41:46,966 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop-datastore/hadoop-hadoop/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2011-04-21 17:41:47,069 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 96 saved in 0 seconds.
+2011-04-21 17:41:47,521 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 913 msecs
+2011-04-21 17:41:47,546 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2011-04-21 17:41:47,547 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2011-04-21 17:41:47,547 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2011-04-21 17:41:47,547 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2011-04-21 17:41:47,547 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2011-04-21 17:41:47,548 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2011-04-21 17:41:47,548 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2011-04-21 17:41:53,603 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-04-21 17:41:54,259 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2011-04-21 17:41:54,288 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2011-04-21 17:41:54,289 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2011-04-21 17:41:54,289 INFO org.mortbay.log: jetty-6.1.14
+2011-04-21 17:41:57,043 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2011-04-21 17:41:57,043 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2011-04-21 17:41:57,051 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-04-21 17:41:57,062 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54310: starting
+2011-04-21 17:41:57,068 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54310: starting
+2011-04-21 17:41:57,073 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54310: starting
+2011-04-21 17:41:57,085 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54310: starting
+2011-04-21 17:41:57,087 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54310: starting
+2011-04-21 17:41:57,097 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54310: starting
+2011-04-21 17:41:57,107 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54310: starting
+2011-04-21 17:41:57,116 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54310: starting
+2011-04-21 17:41:57,120 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54310: starting
+2011-04-21 17:41:57,132 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54310: starting
+2011-04-21 17:41:57,140 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54310: starting
+2011-04-21 17:43:06,745 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-1166469875-10.0.2.15-50010-1303378986692
+2011-04-21 17:43:06,750 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2011-04-21 17:43:09,077 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=listStatus	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 17:43:09,119 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2011-04-21 17:43:09,194 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=mkdirs	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=hadoop:supergroup:rwxr-xr-x
+2011-04-21 17:43:09,226 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=setPermission	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=hadoop:supergroup:rwx-wx-wx
+2011-04-21 17:43:09,541 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=create	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info	dst=null	perm=hadoop:supergroup:rw-r--r--
+2011-04-21 17:43:09,593 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=setPermission	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info	dst=null	perm=hadoop:supergroup:rw-------
+2011-04-21 17:43:09,677 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info. blk_5111298766089195194_1001
+2011-04-21 17:43:10,053 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5111298766089195194_1001 size 4
+2011-04-21 17:43:10,130 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info is closed by DFSClient_-1480683922
+2011-04-21 17:47:44,203 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at hadoop-VirtualBox/10.0.2.15
+************************************************************/
+2011-04-21 18:12:12,566 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = hadoop-VirtualBox/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2011-04-21 18:12:14,268 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=54310
+2011-04-21 18:12:14,404 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost.localdomain/127.0.0.1:54310
+2011-04-21 18:12:14,467 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2011-04-21 18:12:14,499 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2011-04-21 18:12:15,610 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare
+2011-04-21 18:12:15,610 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2011-04-21 18:12:15,610 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2011-04-21 18:12:15,692 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2011-04-21 18:12:15,739 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2011-04-21 18:12:16,291 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2011-04-21 18:12:16,395 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2011-04-21 18:12:16,395 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 96 loaded in 0 seconds.
+2011-04-21 18:12:16,525 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Invalid opcode, reached end of edit log Number of transactions found 11
+2011-04-21 18:12:16,525 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop-datastore/hadoop-hadoop/dfs/name/current/edits of size 1049092 edits # 11 loaded in 0 seconds.
+2011-04-21 18:12:16,674 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 836 saved in 0 seconds.
+2011-04-21 18:12:17,216 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 2096 msecs
+2011-04-21 18:12:17,364 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+2011-04-21 18:12:23,752 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-04-21 18:12:24,728 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2011-04-21 18:12:24,744 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2011-04-21 18:12:24,744 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2011-04-21 18:12:24,744 INFO org.mortbay.log: jetty-6.1.14
+2011-04-21 18:12:28,730 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2011-04-21 18:12:28,758 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2011-04-21 18:12:28,772 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-04-21 18:12:28,795 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54310: starting
+2011-04-21 18:12:28,812 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54310: starting
+2011-04-21 18:12:28,832 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54310: starting
+2011-04-21 18:12:28,844 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54310: starting
+2011-04-21 18:12:28,857 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54310: starting
+2011-04-21 18:12:28,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54310: starting
+2011-04-21 18:12:28,879 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54310: starting
+2011-04-21 18:12:28,905 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54310: starting
+2011-04-21 18:12:28,929 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54310: starting
+2011-04-21 18:12:28,932 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54310: starting
+2011-04-21 18:12:28,964 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54310: starting
+2011-04-21 18:12:49,356 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-1166469875-10.0.2.15-50010-1303378986692
+2011-04-21 18:12:49,442 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2011-04-21 18:12:49,906 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 29 seconds.
+2011-04-21 18:12:53,198 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=listStatus	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 18:12:53,248 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54310, call delete(/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system, true) from 127.0.0.1:38614: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 26 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 26 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1700)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1680)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:517)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2011-04-21 18:13:03,288 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=listStatus	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 18:13:03,319 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54310, call delete(/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system, true) from 127.0.0.1:38614: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 16 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 16 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1700)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1680)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:517)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2011-04-21 18:13:09,929 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 9 seconds.
+2011-04-21 18:13:13,344 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=listStatus	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 18:13:13,352 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54310, call delete(/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system, true) from 127.0.0.1:38614: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 6 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 6 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1700)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1680)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:517)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+2011-04-21 18:13:19,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 1
+2011-04-21 18:13:19,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2011-04-21 18:13:19,941 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2011-04-21 18:13:19,941 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2011-04-21 18:13:19,941 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 64 secs.
+2011-04-21 18:13:19,941 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2011-04-21 18:13:19,949 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2011-04-21 18:13:19,949 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2011-04-21 18:13:23,360 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=listStatus	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 18:13:23,366 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5111298766089195194 is added to invalidSet of 127.0.0.1:50010
+2011-04-21 18:13:23,378 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 3Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2011-04-21 18:13:23,424 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=delete	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=null
+2011-04-21 18:13:23,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=mkdirs	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=hadoop:supergroup:rwxr-xr-x
+2011-04-21 18:13:23,454 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=setPermission	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system	dst=null	perm=hadoop:supergroup:rwx-wx-wx
+2011-04-21 18:13:23,496 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_5111298766089195194_1001
+2011-04-21 18:13:23,657 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=create	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info	dst=null	perm=hadoop:supergroup:rw-r--r--
+2011-04-21 18:13:23,689 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hadoop,hadoop,adm,dialout,cdrom,plugdev,lpadmin,admin,sambashare	ip=/127.0.0.1	cmd=setPermission	src=/usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info	dst=null	perm=hadoop:supergroup:rw-------
+2011-04-21 18:13:23,713 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info. blk_-5570482190740811026_1002
+2011-04-21 18:13:23,921 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5570482190740811026_1002 size 4
+2011-04-21 18:13:23,960 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /usr/local/hadoop-datastore/hadoop-hadoop/mapred/system/jobtracker.info is closed by DFSClient_1097320911
+2011-04-21 18:16:10,318 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at hadoop-VirtualBox/10.0.2.15
+************************************************************/
