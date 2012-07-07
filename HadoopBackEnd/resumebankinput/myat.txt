@@ -1,0 +1,197 @@
+MA MYAT MYAT HTWE (Miss) 
+Blk-330, #12-162, Clementi Ave2, 
+Singapore 120330
+(65) 92427790 
+mailto:myathtwe.mudon@gmail.com
+ 
+
+Education                                               					Year
+
+�	Graduate Diploma in System Analysis              			    	  Feb 2008 - Feb 2009
+ Institute of System Science (ISS),			  		 	  
+ National University of Singapore (NUS)
+
+�	Master of Computer Technology						  Sep 2000 � Feb 2007
+University of Computer Studies, Yangon
+Myanmar
+
+Certifications
+�	C#.Net Programming (PRO, Yangon, Myanmar)						Feb 2007
+�	A+ Hardware & System Administration Course		    			            Jul 2007
+
+
+Professional Experience
+Senior Web Developer					   		   	   May-2010 to Till Now
+Earth9 Company Pte Ltd.
+
+Roles & Responsibilities
+�	Design, Developing and Deployment
+�	Maintain and enhancement of the rolled out systems
+�	Prepare test cases for UAT
+�	Implementation of Utilization Report, Financial Report
+�	Instant Customer Support 
+�	Prioritize assigned tasks and report to Project Manager
+�	Research and solve technical problems
+�	Working close with Account Manager to translate business requirements to technical solutions with cost and time effective way
+
+
+Project contribution at Earth
+Project Name	Spa Esprit
+Description	Spa Esprit is one Singapore�s unique homegrown beauty and F&B brands, with an aim to better the lifestyle of people. To manage therapist schedules, booking appointments and customers information island wide across Singapore, the system is composed of Customer Profile Module where to manage customer information and synchronize customer information to all others outlets across island, eMarketing Module where to manage e-mail content, contact list and e-mail blasting for marketing, eForm where to manage spa-esprit products and service survey, eSegmentation where to extract customer information for marketing, Online Booking where to control customer booking, monthly therapist schedule, and synchronize appointments and therapist schedules to all other outlets across island and User Management Module where to manage user�s Roles and Permissions.
+Technology	.Net Framework 3.5, C#, ASP.Net, MSMQ, Web Service
+MSSQL 2005, MSSQL 2008, SQL Profiler
+Javascript, Jquery, CSS, HTML, Json, Ajaxpro
+IDE & Tools	Visual Studio 2005, Visual Sourcesafe, Telerik Controls
+Global CMS
+Application Environment	Windows 2003 Server, IIS 6
+Roles	Web Developer
+Responsibilities	�	Design & Developing
+�	Maintenance & Enhancement
+�	Implementation of Utilization Report
+�	Instant Customer Support
+�	Report to Project Manager
+�	Research & Solve technical problems
+Web Site URL	http://crmconsole.spa-esprit.com/Project Name	NTUC Eldercare
+Description	NTUC Eldercare Co-operative Ltd was set up in 1997 by the National Trades Union Congress (NTUC) to meet the challenges of a growing ageing population in Singapore. The system is supposed to help NTUC Eldercare staffs to reduce paper works and manage all services and invoice payment in easy way and effective manner. It is composed of  Care@Home Module where NTUC staffs to manage different services, subsidies, and invoice and payment to ICare Officers, Daycare Module where NTUC staffs to mange different Daycare services, subsidies, invoice, Client Module where to manage clients� information, Setup Module where to configure the whole site and user�s roles and permissions, Appointment Module where to manage Care@Home services, ICare Officer Module where to manage ICare Officer information, Financial Reports Modules, Relief Staff Module, Course Module, Enquiry Module and so and so forth.
+Technology	.Net Framework3 3.5, C#, ASP.Net
+MSSQL 2005, MSSQL 2008, Entity Data Model
+Javascript, Jquery, CSS, HTML, Json, Ajaxpro
+IDE & Tools	Visual Studio 2005, Tortoise SVN, Ankh SVN
+Kentico CMS
+Application Environment	Windows 2008 Sever, IIS 7.5
+Roles	Technical Consultant
+Responsibilities	�	Design & Developing
+�	Implementation of Financial Report
+�	Report to Project Manager
+�	Prepare test cases for UAT
+�	Working close with Account Manager to translate business requirements to technical solutions with cost and time effective way
+Web Site URL	https://manager.ntuceldercare.org.sg/Project Name	Thomson Medical Centre
+Description	
+Technology	.Net Framework 3.5, C#, ASP.Net
+MSSQL 2005
+Javascript, HTML, CSS
+IDE & Tools	Visual Studio 2005, Tortoise SVN, Ankh SVN
+Application Environment	Windows 2005 Server, IIS 6
+Roles	Web Developer
+Responsibilities	�	Maintenance & Enhancement
+�	Customer Support
+Web Site URL	http://www.thomsonbaby.com/Project Name	Imedeen
+Description	Imedeen has been developing natural-based, scientifically proven beauty supplements since 1991. The system is supposed to manage different country websites based on Global CMS system, to manage LSA (life style assessment), Store Locater, Special Events, so and so forth.
+Technology	Net Framework 2.0, C#, ASP.Net
+MSSQL 2005, MSSQL 2008
+Javascript, CSS, HTML
+IDE & Tools	Visual Studio 2005, Visual Sourcesafe,
+Global CMS
+Application Environment	Windows 2005 Server, IIS 6
+Roles	Web Developer
+Responsibilities	�	Maintenance & Enhancement
+�	Customer Support
+Web Site URL	http://www.imedeen.com/Project Name	At-Sunrice
+Description	At-Sunrice GlobalChef Academy is an EduTrust certified National CET institutie (NCI), offering open access pathways into nationally-recognised diplomas. The system is supposed to different country websites based on Global CMS, to manage courses, payment, special events, so and so forth.
+Technology	Net Framework 3.5, C#, ASP.Net
+MSSQL 2005, MSSQL 2008
+Javascript, CSS, HTML
+IDE & Tools	Visual Studio 2005, Visual Sourcesafe,
+Global CMS
+Application Environment	Windows 2005 Server, IIS 6
+Roles	Web Developer
+Responsibilities	�	Maintenance & Enhancement
+�	Customer Support
+Web Site URL	http://www.at-sunrice.comProject Name	National Parks
+Technology	Net Framework 4.0, C#, ASP.Net
+MSSQL 2005, MSSQL 2008
+Javascript, CSS, HTML
+IDE & Tools	Visual Studio 2005, Visual Sourcesafe,
+Kentico CMS
+Application Environment	Windows 2005 Server, IIS 6
+Roles	Web Developer
+Responsibilities	�	Bug Tracking & Bug Fixing
+
+
+
+Senior ASP.Net Developer					   		   May-2009 to Apr-2010
+V-Workz International Pte Ltd.
+
+Project contribution at V-Workz International Pte Ltd.
+
+Project Name	View2Offer
+Description	View2Offer is online e-commerce website for Domain, Email Hosting, Web Hosting, Virtual Tour Services, Site Builder, so and so forth. The system is supposed the customer to online shopping, searching Whois, customer�s profile portal where he can manage the products, product management.
+Technology	.Net Framework 3.5, C#, ASP.Net
+MSSQL 2005, MySQL, XML, Linq2Sql
+Javascript, Jquery, CSS, HTML
+IDE & Tools	Visual Studio 2008, Visual Web Developer, Dreamweaver, Tortoise SVN
+Salesforce.com (CRM), WHMCS (Billing System), WebNic (Domain Registrar), Telemoney (Payment Gateway)
+Roles	Sr. ASP.Net Developer
+Responsibilities	�	In Charge of Management Information System (MIS)
+�	Research for Third Party System Integration
+�	Manage order processing for online e-Commerce System 
+�	Gathering user requirements and translate to Technical Specification
+�	Coding and Implementation based on full SDLC
+�	Develop and maintain Product Management System for Admin Control Panel
+�	Maintain and enhance the system
+Web Site URL	http://www.view2offer.com
+http://admin.view2offer.comSAP Portal Developer (Internship)						      Aug 2008 � Dec 2008
+Singapore Power, Singapore
+
+�	Enhancing the current system to allow for public user using SAP Enterprise Portal 7.0
+�	Document for functional specifications
+
+Research Work									      May 2005 � Aug 2006
+University of Computer Studies, Yangon
+Dual Pipelines Dathpath Design by Verilog HDL (Hardware Description Languange)
+�	Research & Development of the project based on full SDLC
+�	Write Research Book
+�	Presentation 
+
+
+Projects Undertaken at ISS
+	
+	Project Name	Technology	Tools used in projects
+1.		Video Rental System(Full SDLC)	Window Based, .Net Platform (C#, ADO.Net)
+MS SQL Database 	Microsoft Visual Studio 2005
+MS SQL 2005 
+2.	E-Commence Web Site (Full SDLC)	Web Based, ASP.NET 2.0,MS SQL Database 	Microsoft Visual Studio 2005,MS SQL 2005
+3.	Online Banking System (Full SDLC)		J2EE, Jsp,Servlet,Html ,JavaScript,
+ Apache Tom Cat App Server,MySQL Databases	Eclipse, MySQL 
+4.	Mobile Banking Application	J2ME ,J2SE
+Apache Tom Cat App Server,
+MySQL Databases	Eclipse, Sun Java Wireless, MySQL
+5.	Stationery Store  Inventory System   
+(Full SDLC)	UML (RUP), Project Management Skills,
+Window Based, .Net Platform 
+(C#, ADO.Net, ASP.Net)
+Crystal Report
+MS SQL Database	Microsoft Visual Studio 2005
+MS SQL 2005
+Rational Rose software for UML design
+Microsoft Project Management 2003
+
+Skills Sets
+Technical Skills
+
+Languages:		C#.Net, C++, ASP.Net (2.0, 3.5), Java, JavaSE, JavaEE, JavaME
+			JSP/Servlet, JavaScript, JQuery, JSON, XML, HTML, Basic TCP/IP, Web Server (IIS 6.0, Apache Tomcat), MySQL, MSSOL 2005
+Software:			JADE, Rational Rose, Microsoft Visual Studio.Net 2005/2008, Eclipse, Word, Excel
+Methodology:		OOAD (UML, Design & Modeling), Rational Unified Process, Module and Systems Level Testing, Multiprocessing synchronization
+
+Language Skills
+
+�	English (Good)
+
+
+Hobbies
+�	Surfing Internet		- every weekend and weekday evening
+�	Swimming			- contingent
+�	Jogging			- twice a week
+�	Reading
+
+
+	
+           Immigration status:   PR
+           Experience: 3 years
+             Last drawn salary:   SGD 3000
+    Expected Remuneration:  SGD 4000
+ Reason for Leaving:  Would like to work with challenge and also would like to work in one place where I can be improved in hard skills and soft skills                              
+                         Availability: one month notice
+                 Position Finding: Full Time/ Permanent / Long term Contract
+    Nationality:  Myanmar	
